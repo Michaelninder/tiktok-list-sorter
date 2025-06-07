@@ -1,0 +1,38 @@
+This Python script will sort 
+```
+https://www.tiktok.com/@user1/video/123
+https://www.tiktok.com/@user2/video/4567
+
+https://www.tiktok.com/@user1/video/7890
+
+https://www.tiktok.com/@user3/video/10
+https://www.tiktok.com/@user2/video/1234
+
+https://www.tiktok.com/@user1/video/12300
+
+https://www.tiktok.com/@user2/video/89000
+
+
+https://www.tiktok.com/@user3/video/6789
+```
+
+to
+
+```
+--- @user1 (3 Videos) ---
+
+https://www.tiktok.com/@user1/video/123
+https://www.tiktok.com/@user1/video/7890
+https://www.tiktok.com/@user1/video/12300
+
+--- @user2 (3 Videos) ---
+
+https://www.tiktok.com/@user2/video/1234
+https://www.tiktok.com/@user2/video/4567
+https://www.tiktok.com/@user2/video/89000
+
+--- @user3 (2 Videos) ---
+
+https://www.tiktok.com/@user3/video/10
+https://www.tiktok.com/@user3/video/6789
+```
