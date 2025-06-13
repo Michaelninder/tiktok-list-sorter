@@ -25,7 +25,7 @@ with open("sorted_tiktoks.txt", "w", encoding="utf-8") as outfile:
     for user in sorted(videos_by_user.keys()):
         sorted_videos = sorted(videos_by_user[user], key=lambda x: x[0])
         count = len(sorted_videos)
-        outfile.write(f"--- @{user} ({count} Videos) ---\n\n")
+        outfile.write(f"---- @{user} ({count} Videos) ----\n\n")
         for _, url in sorted_videos:
             outfile.write(url + "\n")
         outfile.write("\n")
